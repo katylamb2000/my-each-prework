@@ -1,9 +1,13 @@
 def my_each (collection)
+    if block_given?
  i = 0
 while i < collection.length
-yield collection[i]
+yield (collection[i])
 i = i + 1
- puts collection[i]
 end
-my_each
+
+collection
+end
+else
+  puts "no"
 end
