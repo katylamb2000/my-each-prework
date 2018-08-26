@@ -8,6 +8,3 @@ end
 
 collection
 end
-else
-  "no"
-end
