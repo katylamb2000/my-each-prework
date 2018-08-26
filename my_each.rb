@@ -9,5 +9,5 @@ end
 collection
 end
 else
-  puts "no"
+  "no"
 end
